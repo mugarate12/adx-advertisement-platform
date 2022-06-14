@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  justify-content: space-between;
+	align-items: baseline;
+  padding: 20px;
+	border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+.logo a {
+	font-family: 'Fascinate', cursive;
+	font-size: 28px;
+}
+
+.user-actions a {
+	font-size: 18px;
+	color: rgb(36, 82, 233);
+}
+
+.user-actions input {
+	width: 300px;
+	padding: 10px;
+	margin-right: 40px;
+	font-size: 18px;
+	border: 1px solid rgb(221, 221, 221);
+	border-radius: 4px;
+}
+
+.user-actions #login {
+	margin-left: 10px;
+	margin-right: 25px;
+}
+
+.user-actions #register {
+	border: 1px solid rgb(36, 82, 233);
+	border-radius: 4px;
+	padding: 10px;
+	transition: 0.4s;
+}
+
+.user-actions #register:hover {
+	background-color: rgb(36, 82, 233);
+	color: white;
+}
+
+.user-actions a:hover {
+	cursor: pointer;
+}
