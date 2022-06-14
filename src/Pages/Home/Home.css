@@ -1,28 +1,54 @@
-ul {
-	display: flex;
-	flex-wrap: wrap;
+.home {
+	padding: 20px;
 }
 
-li {
+.home h1 {
+	color: rgb(48, 48, 48);
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.home p {
+	color: rgb(48, 48, 48);
+	font-size: 18px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.home ul {
 	border: 1px solid rgb(179, 179, 179);
 	border-radius: 10px;
-	max-width: 320px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.home li {
+	border: 1px solid rgb(179, 179, 179);
+	border-radius: 10px;
+	max-width: 310px;
 	margin-top: 20px;
 	margin-left: 15px;
+	margin-bottom: 20px;
 	text-align: center;
 	list-style: none;
 }
 
-img {
+.home img {
 	border-radius: 10px;
-	max-width: 320px;
+	width: 310px;
+	max-height: 180px;
 }
 
-li .data {
+.home li .data {
 	padding: 10px;
 }
 
-li .data a {
+.home li .data a {
 	font-size: 24px;
 	font-weight: bold;
+}
+
+.home li .data a:hover {
+	cursor: pointer;
 }
