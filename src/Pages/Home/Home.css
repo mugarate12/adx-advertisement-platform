@@ -1,0 +1,28 @@
+ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+li {
+	border: 1px solid rgb(179, 179, 179);
+	border-radius: 10px;
+	max-width: 320px;
+	margin-top: 20px;
+	margin-left: 15px;
+	text-align: center;
+	list-style: none;
+}
+
+img {
+	border-radius: 10px;
+	max-width: 320px;
+}
+
+li .data {
+	padding: 10px;
+}
+
+li .data a {
+	font-size: 24px;
+	font-weight: bold;
+}
