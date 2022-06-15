@@ -1,0 +1,80 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+#page-heading {
+	color: rgb(48, 48, 48);
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.advertisement-info {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 5px;
+  width: 900px;
+  height: 800px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.advertisement-info img {
+  border-radius: 5px;
+  width: 800px;
+  height: 500px;
+  margin-left: 25px;
+}
+
+.advertisement-info div {
+  margin-left: 25px;
+}
+
+.advertisement-info div h1 {
+  margin-top: 20px;
+}
+
+.advertisement-info div p span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.advertisement-info div p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.user-info {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 5px;
+  margin-top: 18px;
+	margin-left: 20px;
+  height: 120px;
+  padding: 10px;
+}
+
+.user-info p {
+  margin-bottom: 10px;
+}
+
+.user-info span {
+  font-weight: bolder;
+}
+
+.user-info button {
+  background-color: white;
+  color: rgb(36, 82, 233);
+  font-size: 18px;
+  padding: 10px 95px 10px;
+  border: 1px solid rgb(36, 82, 233);
+  border-radius: 5px;
+}
+
+.user-info button:hover {
+  background-color: rgb(36, 82, 233);
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
