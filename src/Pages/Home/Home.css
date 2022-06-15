@@ -41,6 +41,8 @@
 }
 
 .home li .data {
+	display: flex;
+	flex-direction: column;
 	padding: 10px;
 }
 
@@ -49,6 +51,9 @@
 	font-weight: bold;
 }
 
-.home li .data a:hover {
-	cursor: pointer;
+.home .data #DetailsButton {
+	color: rgb(36, 82, 233);
+	font-size: 18px;
+	margin-top: 10px;
+	text-decoration: none;
 }
