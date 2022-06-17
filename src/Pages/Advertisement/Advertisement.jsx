@@ -16,11 +16,9 @@ export default function Advertisement() {
 		async function showAdvertisement() {
 			const response = await api.get(`/advertisement/${id}`)
 
-			
-
 			setAdvertisement(response.data)
 		}
-
+		
 		showAdvertisement()
 	}, [])
 
@@ -38,8 +36,8 @@ export default function Advertisement() {
 					</div>
 				</div>
 				<aside className="user-info">
-					<p><span>Proprietário</span>: Owner</p>
-					<p><span>Email</span>: owneremail@gmail.com</p>
+					<p><span>Proprietário</span>: {advertisement.user.name}</p>
+					<p><span>Email</span>: {advertisement.user.email}</p>
 					<button>Chat</button>
 				</aside>
 			</main>
